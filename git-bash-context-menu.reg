@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\git_bash_here]
+@="Open Bash Here"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\git_bash_here\command]
+@="\"C:\\Program Files\\Git\\bin\\bash.exe\" \"--cd=%v.\""
+
