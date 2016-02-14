@@ -13,6 +13,7 @@ alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
+alias c="cd ~/Dropbox/Code"
 alias g="git"
 
 # List all files colorized in long format
