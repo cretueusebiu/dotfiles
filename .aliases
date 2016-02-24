@@ -41,3 +41,9 @@ alias make:migration='php artisan make:migration'
 alias make:controller='php artisan make:controller'
 alias make:model='php artisan make:model'
 alias make:event='php artisan make:event'
+
+# Gulp
+alias gu='gulp'
+alias gw='gulp && gulp watch'
+alias gp='gulp --production'
+alias gup='gulp && gulp --production'
