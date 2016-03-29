@@ -47,3 +47,5 @@ alias gu='gulp'
 alias gw='gulp && gulp watch'
 alias gp='gulp --production'
 alias gup='gulp && gulp --production'
+
+alias linkelixir='npm link gulp laravel-elixir laravel-elixir-rollup babel-preset-es2015-rollup'
