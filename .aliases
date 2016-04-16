@@ -13,7 +13,7 @@ alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
-alias c="cd ~/Dropbox/Code"
+alias c="cd ~/Code"
 alias g="git"
 
 # List all files colorized in long format
@@ -41,6 +41,7 @@ alias make:migration='php artisan make:migration'
 alias make:controller='php artisan make:controller'
 alias make:model='php artisan make:model'
 alias make:event='php artisan make:event'
+alias homestead='function __homestead() { (cd ~/Homestead && vagrant $*); unset -f __homestead; }; __homestead'
 
 # Gulp
 alias gu='gulp'
