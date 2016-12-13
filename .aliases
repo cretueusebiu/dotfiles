@@ -33,6 +33,7 @@ export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40
 alias reload="exec $SHELL -l"
 
 # Laravel
+alias art='php artisan'
 alias artisan='php artisan'
 alias migrate='php artisan migrate'
 alias rollback='php artisan migrate:rollback'
@@ -48,5 +49,3 @@ alias gu='gulp'
 alias gw='gulp && gulp watch'
 alias gp='gulp --production'
 alias gup='gulp && gulp --production'
-
-alias linkelixir='npm link gulp laravel-elixir babel-preset-es2015 babel-preset-react laravel-elixir-rollup'
