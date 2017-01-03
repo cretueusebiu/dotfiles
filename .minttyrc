@@ -11,3 +11,5 @@ BackgroundColour=30,35,48
 CursorType=underscore
 Scrollbar=right
 ConfirmExit=no
+Locale=en_US
+Charset=UTF-8
