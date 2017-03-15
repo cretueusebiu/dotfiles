@@ -49,3 +49,5 @@ alias gu='gulp'
 alias gw='gulp && gulp watch'
 alias gp='gulp --production'
 alias gup='gulp && gulp --production'
+
+alias cls="echo -e '\\0033\\0143'"
