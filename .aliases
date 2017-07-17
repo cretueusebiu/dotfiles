@@ -42,6 +42,4 @@ alias make:controller='php artisan make:controller'
 alias make:model='php artisan make:model'
 alias make:event='php artisan make:event'
 alias homestead='function __homestead() { (cd ~/Homestead && vagrant $*); unset -f __homestead; }; __homestead'
-
-# Misc
-alias cls="echo -e '\\0033\\0143'"
+alias test=./vendor/bin/phpunit
