@@ -111,7 +111,7 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
 	'hyper-chesterish',
-	'hyper-tabs-enhanced'
+	// 'hyper-tabs-enhanced'
   ],
 
   // in development, you can create a directory under
