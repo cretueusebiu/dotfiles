@@ -1,8 +1,8 @@
 # My dotfiles
 
-> My dotfiles for Windows with [Git Bash](https://git-scm.com/downloads) (Mintty).
+> My dotfiles for Windows with [Git Bash](https://git-scm.com/downloads) and [Windows Terminal](https://github.com/microsoft/terminal).
 
-![Screenshot](http://i.imgur.com/kPZ9lEJ.png)
+![Screenshot](https://i.imgur.com/n92OwgX.png)
 
 ## Installation
 
