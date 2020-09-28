@@ -43,6 +43,7 @@ alias model='php artisan make:model'
 alias event='php artisan make:event'
 alias resource='php artisan make:resource'
 alias request='php artisan make:request'
+alias queue='php artisan queue:work'
 alias test=./vendor/bin/phpunit
 function homestead() {
     ( cd ~/Homestead && vagrant $* )
@@ -50,4 +51,6 @@ function homestead() {
 
 # Misc
 alias ffprobe='ffprobe -v quiet -print_format json -show_format -show_streams'
-
+function md() {
+    cat $* | tm
+}
