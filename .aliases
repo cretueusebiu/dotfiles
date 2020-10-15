@@ -49,6 +49,12 @@ function homestead() {
     ( cd ~/Homestead && vagrant $* )
 }
 
+# Terraform
+alias tw='terraform workspace select'
+function ta() {
+    terraform apply -var-file=$1.tfvars
+}
+
 # Misc
 alias ffprobe='ffprobe -v quiet -print_format json -show_format -show_streams'
 function md() {
