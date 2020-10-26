@@ -52,7 +52,10 @@ function homestead() {
 # Terraform
 alias tw='terraform workspace select'
 function ta() {
-    terraform apply -var-file=$1.tfvars
+    terraform apply -var-file=$1.tfvars $2
+}
+function taa() {
+    terraform apply -var-file=$1.tfvars -auto-approve
 }
 
 # Misc
