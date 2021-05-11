@@ -59,7 +59,7 @@ function taa() {
 }
 
 # Misc
-alias ffprobe='ffprobe -v quiet -print_format json -show_format -show_streams'
+alias ffprobejson='ffprobe -v quiet -print_format json -show_format -show_streams'
 function md() {
     cat $* | tm
 }
