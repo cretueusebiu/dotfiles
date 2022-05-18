@@ -12,6 +12,7 @@ terminalDir=~/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe
 if [ -d "$terminalDir" ]; then
     cp ./windows-terminal-settings.json "$terminalDir/LocalState/settings.json"
     cp ./git-bash.ico "$terminalDir/RoamingState"
+    cp ./ubuntu.ico "$terminalDir/RoamingState"
 fi
 
 echo "Installing npm dependencies..."
