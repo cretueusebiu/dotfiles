@@ -1,5 +1,2 @@
 # Make vim the default editor.
 export EDITOR='vim';
-
-# Add subl command
-PATH=$PATH:"C:\Program Files\Sublime Text 3"

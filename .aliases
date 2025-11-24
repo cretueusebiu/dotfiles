@@ -9,7 +9,6 @@ alias ~="cd ~"
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
@@ -45,9 +44,6 @@ alias resource='php artisan make:resource'
 alias request='php artisan make:request'
 alias queue='php artisan queue:work'
 alias test=./vendor/bin/phpunit
-function homestead() {
-    ( cd ~/Homestead && vagrant $* )
-}
 
 # Terraform
 alias tw='terraform workspace select'
