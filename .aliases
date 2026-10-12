@@ -9,10 +9,11 @@ alias ~="cd ~"
 alias -- -="cd -"
 
 # Shortcuts
-alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
-alias c="cd ~/Code"
+if [[ "$OSTYPE" == msys* ]]; then
+    alias c="cd ~/Code"
+else
+    alias c="cd ~/code"
+fi
 alias g="git"
 
 # List all files colorized in long format
@@ -59,3 +60,16 @@ alias ffprobejson='ffprobe -v quiet -print_format json -show_format -show_stream
 function md() {
     cat $* | tm
 }
+
+ssha() {
+  eval "$(ssh-agent -s)"
+  ssh-add ~/.ssh/id_ed25519
+}
+
+# Android SDK (Git Bash only, WSL has its own SDK on PATH)
+if [[ "$OSTYPE" == msys* ]]; then
+    alias sdkmanager='/c/Android/sdk/cmdline-tools/latest/bin/sdkmanager.bat'
+    alias avdmanager='/c/Android/sdk/cmdline-tools/latest/bin/avdmanager.bat'
+    alias adb='/c/Android/sdk/platform-tools/adb.exe'
+    alias fastboot='/c/Android/sdk/platform-tools/fastboot.exe'
+fi

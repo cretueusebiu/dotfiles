@@ -1,0 +1,4 @@
+[wsl2]
+memory=48GB
+swap=16GB
+networkingMode=nat

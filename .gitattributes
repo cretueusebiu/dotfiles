@@ -1,0 +1,3 @@
+# Always LF so the same checkout can be sourced from Git Bash and WSL
+* text=auto eol=lf
+*.ico binary

@@ -16,6 +16,14 @@ then
     then
         . "$COMPLETION_PATH/git-completion.bash"
         . "$COMPLETION_PATH/git-prompt.sh"
+    elif test -f /usr/lib/git-core/git-sh-prompt
+    then
+        # Debian/Ubuntu (WSL)
+        . /usr/lib/git-core/git-sh-prompt
+    fi
+
+    if type __git_ps1 >/dev/null 2>&1
+    then
         # git branch
         PS1="$PS1"'\[\033[38;5;49m\]'
         PS1="$PS1"'`__git_ps1`'
